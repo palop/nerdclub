@@ -172,6 +172,13 @@ sub main {
 	{
 		$server->command ("/msg $nick Commandlist: !q  = Shows a random quote.     !add <nick> <quote>  = Adds a new quote.  !help  = Shows the commandlist and the explanations");
 	}
+	
+	elsif ($data eq "penis")
+	{
+		{$server->command("/kick !nerdclub $nick");
+		{$server->command("/msg !nerdclub No foul language!");
+	}
+
 }
 
 
